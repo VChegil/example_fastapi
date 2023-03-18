@@ -27,7 +27,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"messSDFage": "welcome to my apiDD!"}
+    return {"messSDFage": "welcome to git!"}
 
 
 
