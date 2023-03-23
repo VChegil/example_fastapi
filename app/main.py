@@ -27,7 +27,8 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"messSDFage": "welcome to giQ!!!!sadat!"}
+    return {"message": "Hello world!"}
+
 
 
 

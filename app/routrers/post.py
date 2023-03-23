@@ -117,3 +117,5 @@ def update_post(id: int, updated_post: schemas.CreatePost, db: Session = Depends
     db.commit()
 
     return up_one_post.first()
+
+
