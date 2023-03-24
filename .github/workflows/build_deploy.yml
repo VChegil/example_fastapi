@@ -2,8 +2,6 @@ name: Build and Deploy Code
 
 on: [push, pull_request]
 
-
-
 jobs:
   job1:
     env:
@@ -30,4 +28,4 @@ jobs:
       - name: Test with pytest
         run: |
           pip install pytest 
-          pytest
+          pytest -v -s
